@@ -1,0 +1,30 @@
+# Secrets / local
+.env
+.env.*
+*.pem
+*.credentials.json
+
+# Caches / logs
+*.log
+.cache/
+tmp/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Graphify (jamais commit)
+graphify-out/
+
+# Traces locales des paquets (titres de fenetres, reponses LLM : jamais commit)
+traces/
+
+# Pieces brutes lourdes (si un jour)
+pieces/_local/

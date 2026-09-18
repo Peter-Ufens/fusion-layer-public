@@ -1,0 +1,17 @@
+{
+  "v": 1,
+  "id": "fix_network_unstable",
+  "modality": "network",
+  "source_project": "Fusion-Layer",
+  "source_type": "fusion/network@1",
+  "ts_wall_ms": 1726665601000,
+  "ts_origin": "fixture",
+  "valid_ms": null,
+  "kind": "etat",
+  "text": "lien=partage_connexion qualite=instable pertes=elevees",
+  "confidence": "medium",
+  "confidence_raw": 0.7,
+  "confidence_kind": "classifier_prob",
+  "speaker_role": null,
+  "untrusted": false
+}

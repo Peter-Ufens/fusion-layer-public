@@ -1,0 +1,18 @@
+{
+  "v": 1,
+  "id": "fix_audio_pc",
+  "modality": "audio_pc",
+  "source_project": "Lyla-Ouie",
+  "source_type": "lyla-ouie/system@1",
+  "ts_wall_ms": 1726665600500,
+  "ts_origin": "fixture",
+  "valid_ms": null,
+  "kind": "etat",
+  "text": "media.playback=actif",
+  "text_null_reason": null,
+  "confidence": "high",
+  "confidence_raw": 0.9,
+  "confidence_kind": "classifier_prob",
+  "speaker_role": null,
+  "untrusted": false
+}

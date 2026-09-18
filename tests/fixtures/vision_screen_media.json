@@ -1,0 +1,17 @@
+{
+  "v": 1,
+  "id": "fix_screen_media",
+  "modality": "vision_screen",
+  "source_project": "Lyla-Vision",
+  "source_type": "screen.context",
+  "ts_wall_ms": 1726665595000,
+  "ts_origin": "fixture",
+  "valid_ms": null,
+  "kind": "etat",
+  "text": "app=chrome host=youtube.com categorie=media titre=Film plein ecran",
+  "confidence": "high",
+  "confidence_raw": 0.95,
+  "confidence_kind": "vision_level",
+  "speaker_role": null,
+  "untrusted": true
+}
