@@ -1,0 +1,1 @@
+{"v": 1, "id": "evt_screen_film", "type": "screen.context", "source": "vision.screen", "conf": 0.95, "ttl_ms": 5000, "t_wall_s": 1789736400.0, "payload": {"t_wall_ms": 1789736395000, "process": {"exe_name": "chrome.exe", "category": "media", "label": "Chrome", "known": true}, "document": {"host": "youtube.com"}, "window": {"title": "Film plein ecran"}, "confidence": "high"}}

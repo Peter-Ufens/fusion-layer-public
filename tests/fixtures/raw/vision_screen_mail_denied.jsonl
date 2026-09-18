@@ -1,0 +1,1 @@
+{"v": 1, "id": "evt_screen_mail", "type": "screen.context", "source": "vision.screen", "conf": 0.95, "ttl_ms": 5000, "payload": {"t_wall_ms": 1789736395000, "process": {"exe_name": "outlook.exe", "category": "mail", "label": "Outlook", "known": true}, "document": {"host": ""}, "window": {"title": "Boite de reception"}, "confidence": "high"}}

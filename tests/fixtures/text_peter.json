@@ -1,0 +1,17 @@
+{
+  "v": 1,
+  "id": "fix_text_peter",
+  "modality": "text",
+  "source_project": "Lyla-App",
+  "source_type": "fusion/text-input@1",
+  "ts_wall_ms": 1726665602000,
+  "ts_origin": "fixture",
+  "valid_ms": 30000,
+  "kind": "ponctuel",
+  "text": "Pourquoi la video saccade parfois ?",
+  "confidence": "high",
+  "confidence_raw": null,
+  "confidence_kind": null,
+  "speaker_role": "peter",
+  "untrusted": false
+}
