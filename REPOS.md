@@ -1,9 +1,9 @@
-# Remotes Git — Fusion Layer
+﻿# Remotes Git — Fusion Layer
 
 | Remote | Repo | Visibilité | Usage |
 |---|---|---|---|
-| `origin` | https://github.com/Peter-Ufens/Fusion-Layer | **privé** | Ops : briefs, traces locales gitignorées, vault links |
-| `public` | https://github.com/Peter-Ufens/fusion-layer | **public** | Vitrine : code + ADR + docs sans chemins perso |
+| `origin` | https://github.com/Peter-Ufens/fusion-layer-public | **privé** | Ops : briefs, traces locales gitignorées, vault links |
+| `public` | https://github.com/Peter-Ufens/fusion-layer-public-public | **public** | Vitrine : code + ADR + docs sans chemins perso |
 
 ## Sync vitrine (manuel / GO)
 

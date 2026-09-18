@@ -1,4 +1,4 @@
-# Fusion Layer
+﻿# Fusion Layer
 
 **Titre exact :** Fusion Layer  
 **Dépôt de travail :** `D:\IA-CURSOR\Fusion-Layer`  
@@ -43,7 +43,7 @@ Tests : `python -m pytest tests/ -q` (depuis la racine, avec `PYTHONPATH=src` ou
 | `REGLES.md` | Règles de ce projet |
 | `CONSIGNES-GRAPHIFY.md` | Graphify au GO |
 | `.graphifyignore` | Excludes Graphify |
-| GitHub | **privé (ops)** · https://github.com/Peter-Ufens/Fusion-Layer · **public (vitrine)** · https://github.com/Peter-Ufens/fusion-layer |
+| GitHub | **privé (ops)** · https://github.com/Peter-Ufens/fusion-layer-public · **public (vitrine)** · https://github.com/Peter-Ufens/fusion-layer-public |
 | `presentations-gamma/` | Gamma (deck burger **05k** déjà existant côté hub) |
 | `README.md` | Point d’entrée |
 
