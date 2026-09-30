@@ -1,4 +1,4 @@
-﻿# Clôture V1 — Fusion Layer
+# Clôture V1 — Fusion Layer
 
 **Date :** 2026-09-18  
 **Statut :** `cloture` (V1 preuve labo)  
@@ -30,7 +30,7 @@
 
 | Rôle | URL |
 |---|---|
-| **Privé (ops)** | https://github.com/Peter-Ufens/fusion-layer-public |
+| **Privé (ops)** | https://github.com/Peter-Ufens/Fusion-Layer |
 | **Public (vitrine)** | https://github.com/Peter-Ufens/fusion-layer-public |
 | Hub présentations | [AI-Lab-Journal 05k](https://github.com/Peter-Ufens/AI-Lab-Journal/blob/main/presentations/README.md) |
 | Deck Gamma | https://gamma.app/docs/Le-burger-comment-on-empile-les-sens-dune-IA-50tvqbr74jqyq84 |
