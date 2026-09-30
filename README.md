@@ -1,4 +1,4 @@
-﻿# Fusion Layer
+# Fusion Layer
 
 **Titre exact :** Fusion Layer  
 **Dépôt de travail :** `D:\IA-CURSOR\Fusion-Layer`  
@@ -30,8 +30,7 @@ Tests : `python -m pytest tests/ -q` (depuis la racine, avec `PYTHONPATH=src` ou
 | Dossier / fichier | Contenu |
 |---|---|
 | **`LIRE-EN-PREMIER.md`** | Accueil auto (1er message) |
-| **`LIEN-VAULT.md`** | Carte vault + chemins disque |
-| `context/PERSONNES-SUIVI.md` | Sync ↔ `personnes.md` |
+| **`LIEN-VAULT.md`** | Carte vault (ops privé · hors vitrine) |
 | **`docs/LIMITES-CONTEXTE-LLM.md`** | Budgets fuseur / LLM · navigateur interne vs externe |
 | **`docs/API-CONSOMMATEURS.md`** | Comment un voisin consommera Fusion plus tard |
 | `ADR/` | Décisions structurantes |
@@ -43,7 +42,7 @@ Tests : `python -m pytest tests/ -q` (depuis la racine, avec `PYTHONPATH=src` ou
 | `REGLES.md` | Règles de ce projet |
 | `CONSIGNES-GRAPHIFY.md` | Graphify au GO |
 | `.graphifyignore` | Excludes Graphify |
-| GitHub | **privé (ops)** · https://github.com/Peter-Ufens/fusion-layer-public · **public (vitrine)** · https://github.com/Peter-Ufens/fusion-layer-public |
+| GitHub | **public** · https://github.com/Peter-Ufens/fusion-layer-public · ops privé = dépôt Fusion-Layer |
 | `presentations-gamma/` | Gamma (deck burger **05k** déjà existant côté hub) |
 | `README.md` | Point d’entrée |
 
@@ -68,7 +67,5 @@ Tests : `python -m pytest tests/ -q` (depuis la racine, avec `PYTHONPATH=src` ou
 
 ## Liens
 
-- Profil : `D:\Obsidian\Obsidian\Peter-Vault-Local\00-Meta\profil-peter\Profil-Peter-Canonique.md`
-- INDEX : `D:\IA-CURSOR\INDEX.md`
-- Vault : [[02-Projets/Fusion-Layer]] (note Obsidian)
+- Vault (note Obsidian) : [[02-Projets/Fusion-Layer]]
 - Gamma burger (05k) : https://gamma.app/docs/Le-burger-comment-on-empile-les-sens-dune-IA-50tvqbr74jqyq84

@@ -1,14 +1,14 @@
-﻿# Remotes Git — Fusion Layer
+# Remotes Git — Fusion Layer
 
 | Remote | Repo | Visibilité | Usage |
 |---|---|---|---|
-| `origin` | https://github.com/Peter-Ufens/fusion-layer-public | **privé** | Ops : briefs, traces locales gitignorées, vault links |
-| `public` | https://github.com/Peter-Ufens/fusion-layer-public-public | **public** | Vitrine : code + ADR + docs sans chemins perso |
+| `origin` | https://github.com/Peter-Ufens/Fusion-Layer | **privé** | Ops : briefs, traces locales gitignorées, vault links |
+| `public` | https://github.com/Peter-Ufens/fusion-layer-public | **public** | Vitrine : code + ADR + docs sans chemins perso |
 
 ## Sync vitrine (manuel / GO)
 
 Depuis la racine privée, pousser un sous-ensemble vers `public` (pas de `planning/briefs`, pas de `context/PERSONNES`, pas de chemins vault).  
-Script d’export : `scripts/export_vitrine_publique.py` (GO).
+Script d’export (ops **privé seulement**) : `scripts/export_vitrine_publique.py` · **scanne le contenu** après copie et **refuse** l’export si motif de zone / chemin perso / forme de secret.
 
 ## Règle
 
