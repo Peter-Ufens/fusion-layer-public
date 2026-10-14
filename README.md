@@ -1,7 +1,7 @@
 # Fusion Layer
 
 **Titre exact :** Fusion Layer  
-**Dépôt de travail :** `<workspace>\Fusion-Layer`  
+**Dépôt de travail :** `<workspace>/Fusion-Layer`  
 **Dernière mise à jour :** 2026-09-18  
 **Agente Cursor :** Karen  
 **Statut INDEX :** `cloture` (V1 preuve labo · 18/09)  

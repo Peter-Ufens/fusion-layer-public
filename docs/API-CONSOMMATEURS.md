@@ -10,7 +10,7 @@ Ce document décrit le contrat stable à consommer. Pas de branchement runtime d
 ## Installation locale (poste de travail)
 
 ```text
-cd <workspace>\Fusion-Layer
+cd <workspace>/Fusion-Layer
 set PYTHONPATH=src
 python -m pytest tests/ -q
 ```

@@ -14,7 +14,7 @@ Périmètre tech dicté : **Windows** et aussi **mobile** (lato sensu).
 
 ## Décision
 
-1. Créer `<workspace>\Fusion-Layer` depuis `A-traiter/_MODELE`.
+1. Créer `<workspace>/Fusion-Layer` depuis `A-traiter/_MODELE`.
 2. Titre exact affiché : **Fusion Layer** (espace). Dossier disque : `Fusion-Layer`.
 3. Statut INDEX : `actif`.
 4. GitHub remote **privé** créé le 18/09 (backup distant). Graphify au GO.

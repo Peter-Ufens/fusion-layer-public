@@ -18,7 +18,7 @@ La formulation « brancher Lana » / « smoke live contre les JSONL Vision / Ou�
 ## Décision
 
 1. **Autonomie runtime V1 :** ce projet avance et se teste **tout seul** (fixtures, smokes, capteurs internes). Aucun autre projet Cursor n’a à être lancé pour valider Fusion.
-2. **Réemploi de savoir-faire :** lecture des voisins **autorisée** pour s’inspirer ; si un morceau de code est utile, il est **repris ou adapté ici** (ou un contrat JSON compatible est documenté ici). Pas d’import vivant depuis `<workspace>\Lyla-*` comme dépendance de build.
+2. **Réemploi de savoir-faire :** lecture des voisins **autorisée** pour s’inspirer ; si un morceau de code est utile, il est **repris ou adapté ici** (ou un contrat JSON compatible est documenté ici). Pas d’import vivant depuis `<workspace>/Lyla-*` comme dépendance de build.
 3. **Sens de réutilisation :** Fusion = **bibliothèque / brique** que Vision, Ouïe, App, Orchestrator pourront appeler **plus tard**. Ce lot ne câble pas ces appels.
 4. **LLM :** appel **Ollama local** (`127.0.0.1:11434`, modèle déclaré en config). C’est de l’infra machine, pas un branchement au projet `Lana-Ollama`. Ne pas écrire « brancher Lana » pour ce lot.
 5. **Adaptateurs :** ils connaissent des **formes d’événements compatibles** (alignées sur les contrats déjà vus chez les voisins) et se prouvent sur **fixtures appartenant à Fusion**. Brancher des chemins live vers les JSONL des voisins = **hors ce lot** (éventuel cran ultérieur + GO explicite).
