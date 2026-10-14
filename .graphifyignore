@@ -2,7 +2,7 @@
 *.env
 **/secrets/**
 **/credentials/**
-**/<prive>.md
+**/suivi-personnes*.md
 *.eml
 *.pdf
 *.png
