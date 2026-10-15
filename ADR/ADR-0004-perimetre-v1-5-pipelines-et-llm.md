@@ -23,7 +23,7 @@ Dictée Peter du 18/09 (2e demande de la session) :
 | # | Pipeline | Déjà construit ? | Où | Ce qu'on lit |
 |---|---|---|---|---|
 | 1 | **Texte** (P01) | oui | Lyla-App (Electron vers Ollama) | V1 : saisie directe dans l'outil Fusion (passe-plat) |
-| 2 | **Réseau** (P22, nouveau) | **non** | rien de tel : scripts de lien LAN (hub-materiel), notes panne fibre (Suivi-Pro) | à construire (`psutil` 7.1.0 déjà installé) |
+| 2 | **Réseau** (P22, nouveau) | **non** | rien de tel : scripts de lien LAN (Parc-Maison), notes panne fibre (Suivi-Pro) | à construire (`psutil` 7.1.0 déjà installé) |
 | 3 | **Visuel écran + vidéo** (P09 · P13) | oui | Lyla-Vision : `screen.context`, `scripts/session_screen.py` (profil `film` = 1 observation / 5 s), `src/session_contenu.py` (capture déclenchée + OCR) | events JSONL + trace de session |
 | 4 | **Audio micro** (P02 · P03) | oui | Lyla-Ouïe Phase A (STT Whisper) + Phase C (qui parle) | `events/stt-test.jsonl` |
 | 5 | **Audio PC** (P05) | oui (B2, code mergé 28/08 · **test film 10 min à faire par Peter**) | Lyla-Ouïe `system_listen` | `events/system.jsonl` (`media.playback`) |
@@ -88,7 +88,7 @@ A gagne sur les trois critères qui comptent pour la démo : **ne pas inventer**
    - **Quelques secondes de retard**, pas une analyse vidéo image par image.
    - Flux protégés (Netflix, Prime Video) : **capture noire**, rapportée comme telle (règle Vision : on ne devine jamais une scène).
    - Audio PC = **contexte seulement** (« un média joue »). La règle Ouïe **« Jamais Whisper » sur la sortie PC est conservée**. La lever serait une décision séparée de Peter.
-5. **LLM textuel V1 = `qwen3.5:9b-gpu`** (Ollama local, infra machine) · **`think: false` obligatoire** (sans lui, `/api/chat` peut renvoyer `content` vide tout en brûlant le budget `eval_count` ; constat Karen 18/09) · consigne système minimale · température 0 · `127.0.0.1:11434` · gardé chargé pendant une session (`keep_alive`) pour éviter les 14 s de chargement. Secours / comparaison : `gemma3:27b`. Le tag est déclaré en config, pas en dur. Smoke versionné : `scripts/smoke_lana_paquet.py` (nom historique ; ce n’est **pas** un branchement au projet `Lana-Ollama`).
+5. **LLM textuel V1 = `qwen3.5:9b-gpu`** (Ollama local, infra machine) · **`think: false` obligatoire** (sans lui, `/api/chat` peut renvoyer `content` vide tout en brûlant le budget `eval_count` ; constat Karen 18/09) · consigne système minimale · température 0 · `127.0.0.1:11434` · gardé chargé pendant une session (`keep_alive`) pour éviter les 14 s de chargement. Secours / comparaison : `gemma3:27b`. Le tag est déclaré en config, pas en dur. Smoke versionné : `scripts/smoke_lana_paquet.py` (nom historique ; ce n’est **pas** un branchement a un depot Ollama desktop voisin (prive)).
 6. **Preuve d'usage** : chaque paquet journalise ce que renvoie Ollama (`model`, `load_duration`, `total_duration`, `eval_count`) plus le `digest` du modèle (`/api/tags`). C'est cette trace qui **démontre** quel LLM a répondu.
 7. **Cobayes V1** : (a) vidéo YouTube non protégée avec sous-titres · (b) session de jeu vidéo · (c) conflit voix / film (règle R1 proposée dans le retour Bob) · (d) réseau instable (partage de connexion tant que la fibre est coupée, ETA 23/09).
 
@@ -114,7 +114,7 @@ A gagne sur les trois critères qui comptent pour la démo : **ne pas inventer**
 ## Amendement (ADR-0005 · 18/09)
 
 « Réutiliser les pipelines existants » = **compatibilité de format** et éventuelle **copie de code dans ce dépôt**, pas un branchement runtime vers les projets Cursor voisins.  
-Le LLM reste un appel **Ollama local**, pas une intégration au projet `Lana-Ollama`.
+Le LLM reste un appel **Ollama local**, pas une intégration a un depot Ollama desktop voisin (prive).
 
 ## Liens
 

@@ -9,7 +9,7 @@
 
 ## Contexte
 
-Le vault et le plan Companion-OS V2 mentionnent un Fusion Layer. On a parfois envisagé des LLM « omni » (image + son en entrée native).
+Le vault et le plan Lyla-OS V2 mentionnent un Fusion Layer. On a parfois envisagé des LLM « omni » (image + son en entrée native).
 
 Dictée Peter (18/09, précisée le soir) : la stratégie n’est **pas** « tout traduire en texte pour le LLM ». C’est une **vision produit** :
 
@@ -20,7 +20,7 @@ Dictée Peter (18/09, précisée le soir) : la stratégie n’est **pas** « tou
 
 ## Décision
 
-1. **Cible V1 = LLM textuel** (Ollama local, infra machine ; voir ADR-0005). Ce n’est pas un branchement au projet `Lana-Ollama`. Ce n’est pas un LLM multimédia natif en entrée.
+1. **Cible V1 = LLM textuel** (Ollama local, infra machine ; voir ADR-0005). Ce n’est pas un branchement a un depot Ollama desktop voisin (prive). Ce n’est pas un LLM multimédia natif en entrée.
 2. **Fusion = couches de pipelines** autour de cette cible : vision (forme compatible), parole, audio PC, réseau, présence clavier/souris (ADR-0006), texte saisi, etc. Chaque pipeline produit des **events structurés** (contrat ADR-0003).
 3. **La vision produit n’est pas « tout devient une phrase ».** Les capteurs restent des observations typées (modalité, horloge, confiance, facettes). Le fait de présenter un **paquet texte** au LLM est un **adaptateur d’entrée** vers le modèle textuel (détail ADR-0003), pas la définition du projet.
 4. **Brique autonome** (ADR-0005) : on avance dans ce dépôt ; les voisins réutiliseront Fusion plus tard.
